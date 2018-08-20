@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Grupo de D'Parra - Soluções Digitais - Soluções em Marketing Digital, Design Gráfico, Design Web, EndoMarketing e Marketing Digital">
+    <meta name="author" content="Felipe de Paulo Rodrigues">
+
+    <title>Grupo D'Parra - Soluções Digitais</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/curriculos.min.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Piwik -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="http://cluster-piwik.locaweb.com.br/";
+        _paq.push(['setTrackerUrl', u+'piwik.php']);
+        _paq.push(['setSiteId', 26194]);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Piwik Code -->
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+<!--	  ALTERAÇÃO: TRECHO QUE ESTAVA NO BOOTSTRAP TEMPLATE
+	 		AUTHOR: FELIPE RODRIGUES
+			DATA:19/07/2018
+--> 
+		  <a class="navbar-brand js-scroll-trigger" href="curriculos.html"><img alt="" width="119" height="84" src="img/logo-dparra-barra-iniciar.png"> </a>
+
+		
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="index.html">Home</a>
+            </li>
+           <!-- <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#team">Time</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contato</a>
+            </li> -->
+            <!--
+              Mudança: Inclusão do menu Seja um D'PARRA (envio de CV)
+              Autor: Felipe de Paulo
+              Data: 27/07/2018
+            -->
+             <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Seja um D'PARRA</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+   
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <!--<h5 class="section-heading text-uppercase">Seja um D'PARRA e prepare-se para novos desafios</h5>-->
+            <h4 class="section-heading text-uppercase" >Seja um D'PARRA e prepare-se  <br> para novos desafios</h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <form id="contactForm" name="sentMessage" novalidate="novalidate">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input class="form-control" id="name" type="text" placeholder="Seu nome *" required="required" data-validation-required-message="Por favor, digite seu nome.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control" id="email" type="email" placeholder="Seu Email *" required="required" data-validation-required-message="Por favor, digite seu Email.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control" id="phone" type="tel" placeholder="Seu telefone *" required="required" data-validation-required-message="Por favor, digite seu número de telefone.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <!--<div class="col-md-6">
+                  <div class="form-group">
+                    <textarea class="form-control" id="message" placeholder="Sua Mensagem *" required="required" data-validation-required-message="Por favor, digite sua mensagem."></textarea>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>-->
+                <div class="clearfix"></div>
+                <div class="col-lg-12 text-center">
+                  <div id="success"></div>
+                  <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Enviar</button>
+                </div> 
+
+				  
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <span class="copyright">Copyright &copy; Grupo D'Parra - Soluções Digitais -  2018</span><br>
+          </div>
+          <div class="col-md-7">
+            <h5><span class="copyright"> Tel (011) 2507-8140  | contato@grupodparra.com.br <br> São Paulo - SP </span></h5>
+          </div>
+          <div class="col-md-5">
+            <ul class="list-inline social-buttons">
+<!--
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+-->
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/GrupoDParraLtda/" target="_blank">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+        
+         <li class="list-inline-item">
+                <a href="https://www.instagram.com/grupodparra" target="_blank">
+                  <i class="fa fa-instagram"></i>
+                </a>
+              </li>
+
+ <!--
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </li>
+-->
+            </ul>
+          </div>
+          <div class="col-md-7">
+            <ul class="list-inline quicklinks">
+              <li class="list-inline-item">
+                <a href="privacidade/Dparra-Privacy-Policy.pdf" target="_blank">Privacy Policy</a>
+
+                <!--<link href="css/agency.min.css" rel="stylesheet">-->
+
+              </li>
+              <li class="list-inline-item">
+                <a href="privacidade/DParra-Group-Terms-Conditions.pdf" target="_blank">Terms of Use</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Portfolio Modals -->
+
+    <!-- Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Amb System</h2>
+                  <p class="item-intro text-muted">Envidraçamento condominial</p>
+
+					<img class="img-fluid d-block mx-auto" src="img/servicos/job-ambystem-full.jpg" alt="">
+
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Fechar Janela</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+ 
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Vichy</h2>
+                  <p class="item-intro text-muted">Laboratório Dermatológico</p>
+                  <img class="img-fluid d-block mx-auto" src="img/servicos/vichy-full.jpg" alt="">
+
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Fechar Janela</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Planet Potato</h2>
+                  <p class="item-intro text-muted">Franquia Fast-Food </p>
+                  <img class="img-fluid d-block mx-auto" src="img/servicos/planet-full.jpg" alt="">
+
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Fechar Janela</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">La Roche-Posay</h2>
+                  <p class="item-intro text-muted">Laboratório Dermatológico</p>
+                  <img class="img-fluid d-block mx-auto" src="img/servicos/Joblaroche-full.jpg" alt="">
+
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Fechar Janela</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Cozinharia</h2>
+                  <p class="item-intro text-muted">Franquia de Restaurante de Comida Tipica</p>
+                  <img class="img-fluid d-block mx-auto" src="img/servicos/cozinharia-full.jpg" alt="">
+
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Fechar Janela</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Abla Import</h2>
+                  <p class="item-intro text-muted">Importadora</p>
+                  <img class="img-fluid d-block mx-auto" src="img/servicos/abla-full.jpg" alt="">
+
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Fechar Janela</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/contact_me.min.js"></script>
+
+  </body>
+
+</html>
